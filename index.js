@@ -100,3 +100,5 @@ app.listen(port, () => {
     console.log(`- ${setting.id}: ${setting.title} (${setting.startTime} - ${setting.endTime})`);
   });
 });
+
+module.exports = app;
